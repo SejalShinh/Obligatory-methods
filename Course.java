@@ -95,9 +95,7 @@ public class Course  implements Comparable<Course>{
 	 * 
 	 * 'this' course is "less than" the specified course if its course code lexicographically precedes that of the other course, and is 'greater than' the
 	 * specified course if its course code lexicographically follows that of the specified course.  
-	 * E.g., EECS1710 lexicographically precedes EECS1720, which precedes EECS2030, which  precedes EECS2031 and so on.
 	 * 
-	 * The result is 0 is the course codes are (also) also equal.
 	 **/
 	
 	public int hashCode() {
