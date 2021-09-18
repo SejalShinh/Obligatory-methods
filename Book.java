@@ -78,8 +78,6 @@ public class Book implements Comparable{
 			return this.courseCode;
 		}
 
-
-		
 		 
 		/**
 		 * This class defines logic equality of Book objects, as follows:
@@ -104,13 +102,6 @@ public class Book implements Comparable{
 		 * 'this' book is "less than" the specified book if its publishing year is earlier than that of the specified book.
 		 * and is "greater than" the specified book if the publishing year is after that of the specified book.
 		 *
-		 *
-		 * If the years are the same, then they are further compared based on lexicographical ordering of courseCode.
-		 * 'this' book is "less than" the specified book if its courseCode lexicographically precedes that of the specified book,
-		 * and is "greater than" the specified book if its courseCode lexicographically follows that of the specified book.
-		 * E.g., "EECS1710" lexicographically precedes "EECS1720", which in turn precedes "EECS2030"
-		 * 
-		 * The result is 0 if the courseCodes are (also) equal.
 		 */
 		@Override
 		public int compareTo(Object a) {
